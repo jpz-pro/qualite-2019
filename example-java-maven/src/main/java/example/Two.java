@@ -13,14 +13,6 @@ public class Two {
 
 	/**
 	 * 
-	 * @return message
-	 */
-	public String foo() {
-		return message;
-	}
-
-	/**
-	 * 
 	 * @param one
 	 *            classe One
 	 * @return "ERREUR" ou "SUCCES"
@@ -34,11 +26,11 @@ public class Two {
 	private int compareTo(One one) {
 		return message.compareTo(one.foo());
 	}
-
-	/**
-	 * Méthode de test
-	 */
-	public void uncoveredMethod() {
-		log.info(foo());
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this.message.equals(obj))
+			return true;
+		return false;
 	}
 }
