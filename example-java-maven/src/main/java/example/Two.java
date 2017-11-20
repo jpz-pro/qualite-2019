@@ -1,7 +1,5 @@
 package example;
 
-import java.util.logging.Logger;
-
 /**
  * 
  * @author Julien
@@ -9,7 +7,6 @@ import java.util.logging.Logger;
  */
 public class Two {
 	String message = "foo";
-	Logger log;
 
 	/**
 	 * 
