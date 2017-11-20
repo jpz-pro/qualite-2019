@@ -1,20 +1,8 @@
 package example;
 
-import java.util.logging.Logger;
-
-/**
- * 
- * @author Julien
- *
- */
 public class One {
 	String message = "foo";
-	Logger log;
 
-	/**
-	 * 
-	 * @return message
-	 */
 	public String foo() {
 		return message;
 	}
@@ -22,7 +10,7 @@ public class One {
 	/**
 	 * Méthode de test
 	 */
-	public void uncoveredMethod() {
-		log.info(foo());
+	private void unusedMethod() {
+		System.out.println(foo());
 	}
 }
