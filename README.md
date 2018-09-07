@@ -1,3 +1,3 @@
-# qualite-2017
+# qualite-2018
 
-Repository du cours d'initiation à la Qualité logicielle - CAT-AMANIA - T4 2017
+Repository du cours d'initiation à la Qualité logicielle - CAT-AMANIA - T1 2018
