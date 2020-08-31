@@ -4,16 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.sonarqube</groupId>
-	<artifactId>exercices-java-maven</artifactId> <!-- ArtifactId à personnaliser -->
+	<artifactId>exercices-java-maven</artifactId> <!-- ArtifactId à personnaliser pour ne pas perdre votre travail (minuscules sans espaces) -->
 	<version>1.0-SNAPSHOT</version>
 
-	<name>Java :: Cours Qualite 2019 Project :: VOTRE NOM ICI</name>
+	<name>Java :: Cours Qualite 2020 Project :: VOTRE GROUPE ICI</name> <!-- Indiquez chaque NOM pour les équipes -->
 
 	<properties>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
+    		<sonar.host.url>http://51.210.242.228:9000</sonar.host.url>
+    		<sonar.login>user</sonar.login> <!-- Reportez le user indiqué sur le support de cours -->
+    		<sonar.password>password</sonar.password> <!-- Reportez le password indiqué sur le support de cours -->
 	</properties>
 
 	<dependencies>
@@ -30,7 +33,6 @@
 				<plugin>
 					<groupId>org.sonarsource.scanner.maven</groupId>
 					<artifactId>sonar-maven-plugin</artifactId>
-					<version>3.6.0.1398</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
