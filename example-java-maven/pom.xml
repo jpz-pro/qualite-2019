@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
     		<sonar.host.url>http://51.210.242.228:9000</sonar.host.url>
-    		<sonar.login>user</sonar.login> <!-- Reportez le user indiqué sur le support de cours -->
+    		<sonar.login>admin</sonar.login> <!-- Reportez le user indiqué sur le support de cours -->
     		<sonar.password>password</sonar.password> <!-- Reportez le password indiqué sur le support de cours -->
 	</properties>
 
