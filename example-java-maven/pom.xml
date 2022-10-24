@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.sonarqube</groupId>
-	<artifactId>exercices-java-maven</artifactId> <!-- ArtifactId à personnaliser pour ne pas perdre votre travail (minuscules sans espaces) -->
+	<artifactId>exercices-java-maven-prenom-nom</artifactId> <!-- ArtifactId à personnaliser pour ne pas perdre votre travail (minuscules sans espaces) -->
 	<version>1.0-SNAPSHOT</version>
 
-	<name>Java :: Cours Qualite 2021 Project :: VOTRE GROUPE ICI</name> <!-- Indiquez chaque NOM pour les équipes -->
+	<name>Java :: Cours Qualite 2022 Project :: VOTRE Prenom NOM ICI</name> <!-- Indiquez NOM1 / NOM2 pour les équipes -->
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
