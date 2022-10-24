@@ -9,12 +9,13 @@
 	<name>Java :: Cours Qualite 2022 Project :: VOTRE Prenom NOM ICI</name> <!-- Indiquez NOM1 / NOM2 pour les équipes -->
 
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.release>11</maven.compiler.release>
+    		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
     		<sonar.host.url>http://51.210.242.228:9000</sonar.host.url>
-    		<sonar.login>admin</sonar.login> <!-- Reportez le user indiqué sur le support de cours -->
+    		<sonar.login>user</sonar.login> <!-- Reportez le user indiqué sur le support de cours -->
     		<sonar.password>password</sonar.password> <!-- Reportez le password indiqué sur le support de cours -->
 	</properties>
 
